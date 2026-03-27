@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina di prova</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h1 id="titolo">Ciao! Questa è una pagina HTML di prova</h1>
+
+<button onclick="cambiaTesto()">Cliccami</button>
+
+<script>
+function cambiaTesto() {
+    document.getElementById("titolo").innerText = "Hai cliccato il pulsante!";
+}
+</script>
+
+</body>
+</html>
