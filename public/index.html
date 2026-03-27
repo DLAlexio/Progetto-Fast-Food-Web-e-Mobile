@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FastFood Menu</title>
+</head>
+<body>
+  <h1>Menu</h1>
+  <ul id="menu"></ul>
+    <script>
+    fetch('/menu')
+    .then(res => res.json())
+    .then(data => {
+        const ul = document.getElementById('menu');
+        data.forEach(piatto => {
+        const li = document.createElement('li');
+        li.textContent = `${piatto.nome} - €${piatto.prezzo}`;
+        ul.appendChild(li);
+        });
+    })
+    .catch(err => console.error(err));
+    </script>
+</body>
+</html>

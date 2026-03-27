@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1"
+  },
+  "name": "progetto-fast-food-web-e-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DLAlexio/Progetto-Fast-Food-Web-e-Mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DLAlexio/Progetto-Fast-Food-Web-e-Mobile/issues"
+  },
+  "homepage": "https://github.com/DLAlexio/Progetto-Fast-Food-Web-e-Mobile#readme"
+}
