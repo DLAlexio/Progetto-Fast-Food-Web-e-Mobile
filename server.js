@@ -12,7 +12,8 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // MongoDB setup
-const uri = "mongodb+srv://dbUser:DLAlexio28@fastfood.kgvgftz.mongodb.net/?appName=FastFood";
+const uri = "mongodb+srv://dbUser:DLAlexio28@fastfood.y7f3kil.mongodb.net/?appName=Fastfood";
+
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
